@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PM02OBAbigail.MenuPage">
+    <ContentPage.Content>
+        <StackLayout>
+            
+            <Button x:Name="btnapp1" Text="Operaciones" Clicked="btnapp1_Clicked"></Button>
+            <Button x:Name="btnapp2" Text="Informacion" Clicked="btnapp2_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
